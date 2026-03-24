@@ -24,3 +24,19 @@ fun main(){
     moveZeros(arr)
 
 }
+
+
+/* 
+Single Pass Swap Version
+fun moveZeros(arr: Array<Int>) {
+    var lastNonZero = 0
+
+    for (i in arr.indices) {
+        if (arr[i] != 0) {
+            val temp = arr[lastNonZero]
+            arr[lastNonZero] = arr[i]
+            arr[i] = temp
+            lastNonZero++
+        }
+    }
+} */
